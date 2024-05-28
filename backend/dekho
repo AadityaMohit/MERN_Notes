@@ -1,0 +1,11 @@
+sbsbe phle backend banane k liye node js , express js , nodemon , sb install krlo q ki ususide se bakcende dbnaya ajata h h phir index.js to starting point k liye bnanaya jatah jaise reac me app.js jo jhota h starting point hota h waise hi uske andr me hm mongo db ko mongoose se connect jkrwa diya gaya h port ye sb define krdiya gaya h or endpoints add krdiye h
+
+hmne endpoints k routes ko routes naam k folder ko bnad iye h or iusme hm apne componenets ko bnaye h 
+
+or models wale folder me hm apne componenets k Models ko define krdiya gaya h schema bnaakr k
+
+routes jo jo endpoint ko hit krenge wo two end point dsplay hone lgega
+# Day 2
+dekho ye sb krne k baad hm apne exprress k app me validator lgana chahte h usk liye phke instakll krlo express ka validator const { body, validationResult } = require('express-validator'); aise krk itna krne k baad tm jaao jakw synatx dekho express kaki konsa validation kaise lagaya jata h 
+  body('name', 'Please Enter a valid name').isLength({ min: 3 }),
+  ye dekho ye bodyk andr k name wale schema agr jkhali rha to ye wla message dea ki please meter a valid name 
